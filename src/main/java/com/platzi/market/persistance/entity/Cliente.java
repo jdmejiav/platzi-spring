@@ -23,7 +23,7 @@ public class Cliente {
 
 	@OneToMany(mappedBy = "cliente")
 	private List<Compra> compras;
-	
+
 	public String getId() {
 		return id;
 	}
